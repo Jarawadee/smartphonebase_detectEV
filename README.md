@@ -89,6 +89,4 @@ This study was approved by the Ethics Committee in Human Research, Walailak Univ
 Corresponding author: Penchom Janwan — penchom.ja@wu.ac.th
 Department of Medical Technology, School of Allied Health Sciences, Walailak University, Nakhon Si Thammarat 80160, Thailand
 
-## License
 
-> Specify a license (e.g., MIT, Apache 2.0) for the repository.
