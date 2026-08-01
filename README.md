@@ -78,7 +78,7 @@ Object detection performance (n = 247 test images): mAP@0.50 = 91.07%, mAP@0.50:
 
 If you use this code, please cite:
 
-> Muenjak J, Pongpanitanont P, Khampeeramao N, Thanchomnang T, Laymanivong S, Maleewong W, Janwan P. Smartphone-Based artificial intelligence system for automated detection of pinworm eggs in microscopy images. [Journal name, year — update once accepted].
+> Muenjak J, Pongpanitanont P, Khampeeramao N, Thanchomnang T, Laymanivong S, Maleewong W, Janwan P. Smartphone-Based artificial intelligence system for automated detection of pinworm eggs in microscopy images. 
 
 ## Ethics Statement
 
