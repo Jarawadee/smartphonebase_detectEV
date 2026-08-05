@@ -5,9 +5,9 @@ The system detects and localizes Enterobius vermicularis (pinworm) eggs in smart
 
 Overview
 The pipeline follows a four-stage process:
-  1. Data acquisition — Microscopic images (4,080 × 2,296 px) captured at 400× magnification using a smartphone mounted on an Olympus CX31 microscope.
-  2. Data preprocessing — Cropping to 500 × 500 px patches, train/test split (80:20, stratified), and data augmentation (geometric, photometric, and noise-based transformations), expanding the training set from 2,264 to 54,336 images.
-  3. Model training and selection — Four CNN architectures (Custom CNN, ResNet-50, MobileNet, DenseNet-121) trained and compared for binary classification (pinworm egg vs. artifact), evaluated with accuracy, precision, recall, F1-score, and AUC (5-fold cross-validation).
+  1. Data acquisition — Microscopic images (4,080 × 2,296 px) captured at 400× magnification under Olympus CX31 microscope using a smartphone.
+  2. Data preprocessing — Cropping to 500 × 500 px patches, train/test split (80:20), and data augmentation, expanding the training set from 2,264 to 54,336 images.
+  3. Model training and selection — Four CNN architectures (Custom CNN, ResNet-50, MobileNet, DenseNet-121) trained and compared for binary classification (pinworm egg vs. artifact), evaluated with accuracy, precision, recall, F1-score, and AUC (Area under the curve of ROC).
   4. Object detection — The best-performing lightweight model (MobileNet) integrated into a sliding-window patch search over full-resolution images, followed by Non-Maximum Suppression (NMS) and bounding-box merging to enable multi-object detection.
 
 ## Repository Structure
