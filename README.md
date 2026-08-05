@@ -58,7 +58,7 @@ If you use this code, please cite:
 
 ## Ethics Statement
 
-This study was approved by the Ethics Committee in Human Research, Walailak University (protocol code WUEC-23-051-01, approved 20 February 2023), in accordance with the Declaration of Helsinki.
+This study was approved by the Ethics Committee in Human Research, Walailak University (protocol code WUEC-23-051-01, approved 20 February 2023). The study’s purpose and procedures were explained to the participants prior to enrolment. Written informed consent was obtained from all participants and the parent or the legal guardian of the child before the study onset.
 
 ## Contact
 
