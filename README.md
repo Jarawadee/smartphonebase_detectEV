@@ -15,12 +15,14 @@ The pipeline follows a four-stage process:
 > Update the tree below to match the actual folders/files in this repository.
 
 ```
-.
+EV_mobile.ipynb
 ├── data_preprocessing/     # Image cropping, dataset splitting, augmentation scripts
 ├── classification/         # Training/evaluation scripts for Custom CNN, ResNet-50, MobileNet, DenseNet-121
+├── evaluation/             # Metric computation (accuracy, precision, recall, F1 score, AUC)
+
+EV_mobile_ObjectDetection.ipynb
 ├── object_detection/       # Sliding-window patch search, NMS, bounding-box merging
-├── evaluation/             # Metric computation (accuracy, precision, recall, F1, AUC, mAP, IoU)
-├── models/                 # Saved model weights (or download instructions, if hosted externally)
+├── evaluation/             # Metric computation (mAP, IoU)
 ├── requirements.txt        # Python dependencies
 └── README.md
 ```
@@ -31,32 +33,6 @@ The pipeline follows a four-stage process:
 - TensorFlow / Keras (or PyTorch — specify which framework was used)
 - OpenCV, NumPy, scikit-learn, Matplotlib
 - Google Colaboratory or an equivalent GPU environment (models were trained on an NVIDIA Tesla T4)
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### 1. Classification
-
-Train and evaluate a classification model (e.g., MobileNet):
-
-```bash
-python classification/train.py --model mobilenet --epochs 100
-```
-
-### 2. Object Detection
-
-Run multi-object detection on a full-resolution test image using the trained MobileNet backbone:
-
-```bash
-python object_detection/detect.py --image path/to/image.jpg --model models/mobilenet_best.h5 --confidence 0.95
-```
-
-The detector slides a 500 × 500 px window (step size 50 px) across the image, classifies each patch, and applies NMS and box-merging to produce final bounding boxes.
 
 ## Data
 
