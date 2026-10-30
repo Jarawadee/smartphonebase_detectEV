@@ -43,8 +43,8 @@ The image dataset used to train and evaluate the models is available at:
 
 | Model | Accuracy | Precision | Recall | F1-score | AUC |
 |---|---|---|---|---|---|
-| Custom CNN | 0.98 | 0.98 | 0.98 | 0.98 | 0.98 |
-| ResNet-50 | 0.99 | 0.99 | 0.99 | 0.99 | 1.00 |
+| Custom CNN | 0.97 | 0.97 | 0.97 | 0.97 | 0.97 |
+| ResNet-50 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 |
 | MobileNet | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 |
 | DenseNet-121 | 0.99 | 0.99 | 0.99 | 0.99 | 0.99 |
 
